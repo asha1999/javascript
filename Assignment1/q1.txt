@@ -1,0 +1,13 @@
+function party(num)
+{
+    if(num%2==0)
+    {
+        return "even";
+    }
+    else
+    {
+        return "odd";
+    }
+}
+var as=party(5);
+document.write(as);

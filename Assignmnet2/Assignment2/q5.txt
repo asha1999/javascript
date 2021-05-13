@@ -1,0 +1,8 @@
+lets val=[1,2,3,4,5];
+
+function square(x)
+{
+  return x*x;
+}
+val=val.map(square);
+document.write(val);

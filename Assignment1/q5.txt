@@ -1,0 +1,9 @@
+function padchar(n,a)
+{
+    for(i=0;i<n;i++)
+    {
+        document.write(a);
+    }
+}
+padchar(5,'x');
+padchar(7,'-');

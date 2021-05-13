@@ -1,0 +1,9 @@
+let square=function(x){
+    return(x*x);
+}
+let double=function(x)
+{
+    return(x*2);
+}
+ let squareDouble=(val)=>square(double(val))
+ document.write(squareDouble(5));
